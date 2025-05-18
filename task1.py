@@ -1,5 +1,4 @@
 import sqlite3
-import os
 import time
 
 def create_and_populate_table(db_path):

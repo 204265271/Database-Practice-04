@@ -1,4 +1,5 @@
 import task1 
+import task2
 import os
 
 def clear_db_files():
@@ -33,3 +34,11 @@ if __name__ == "__main__":
     task1.experiment_1(db_file_1)
     task1.experiment_2(db_file_1)
     task1.experiment_3(db_file_1)
+    
+    # task 2
+    print() 
+    print("         ### task 2 ###")
+    print()
+    db_file_2 = os.path.join(db_files_dir, "task2.db")
+    task2.run_experiment(db_file_2)
+    
