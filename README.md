@@ -4,3 +4,5 @@
 - It's worth mentioning that although it is Practice 4 in order, it's written as Practice 5 in the doc. Probably just a mistake in writing.
 
 # Explanation to Some Details
+- In the Practice 4, we choose to use sqlite3.
+- [task 1] in the first task, we choose the **testIndex** sample, namely the first one, for the task. 
