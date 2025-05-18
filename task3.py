@@ -145,6 +145,7 @@ def run_experiment(db_file):
     print("Step 4: randomly generate 10 workloads:", generate_workloads(conn, 10))  # 随机生成 10 个分组查询
 
     # 对比不同缓存大小的结果
+    print("Step 5 & 6:")
     for cache_size in [2, 4, 6]:
         print(f"\n[INFO] Running with cache size = {cache_size}")
         total_io, materialized = optimize_materialization(conn, cache_size)
